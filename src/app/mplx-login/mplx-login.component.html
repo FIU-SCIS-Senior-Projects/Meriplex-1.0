@@ -1,0 +1,30 @@
+
+<md-toolbar color="primary">Meriplex 1.0</md-toolbar>
+
+<md-card  class="login-card">
+<div class="logo-div">
+<img class="mplx-logo" src="http://meriplex.com/images/logo.fw.png" alt="Meriplex Logo">
+</div>
+
+<md-card-title>Login</md-card-title>
+
+<md-card-content>
+<form (submit)="onSubmit($event)">
+
+<md-form-field>
+   <input type="email" placeholder="Email" mdInput [mdAutocomplete]="auto" ngModel email>
+</md-form-field>
+
+<md-form-field>
+   <input type="password" placeholder="Password" mdInput [mdAutocomplete]="auto" ngModel password >
+</md-form-field>
+
+<div class="button-div">
+<button type="submit" md-raised-button color="primary">Next</button>
+</div>
+</form>
+
+</md-card-content>
+
+</md-card>
+

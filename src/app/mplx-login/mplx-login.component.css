@@ -1,0 +1,44 @@
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+md-toolbar {
+    box-shadow: gray 0px 2px 10px;
+}
+md-card-title {
+    margin-top: 20px;
+    font-size: .9em;
+    text-align: left;
+}
+
+md-form-field {
+    width: 100%;
+}
+
+.mplx-logo {
+    margin-left: -5px;
+    height: 25%;
+    width: 25%;
+}
+
+.logo-div {
+    text-align: left;
+    padding-bottom: 10px;   
+}
+
+.login-card {
+    
+    width: 25%;
+    margin: 25vh auto;
+    
+}
+
+.button-div {
+    text-align: right;
+}
+
